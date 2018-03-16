@@ -1,0 +1,250 @@
+﻿<Page
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="IfBoxTester.ErrInfoTestIo"
+	xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+	x:Name="Page"
+	WindowTitle="Page"
+	FlowDirection="LeftToRight"
+	Height="600" Width="1300" Loaded="Page_Loaded">
+    <Canvas>
+
+        <Button x:Name="buttonReturn" Content="テスト画面に戻る" Height="57" Canvas.Left="10" Canvas.Top="10" Width="158" Style="{DynamicResource SquareButtonStyle}" Controls:ControlsHelper.ContentCharacterCasing="Normal" FontFamily="Meiryo UI" FontWeight="Normal" HorizontalContentAlignment="Center" FontSize="18" Click="buttonReturn_Click"  />
+        <Image Height="570" Canvas.Left="186" Canvas.Top="20" Width="1062" Source="/IfBoxTester;component/Resources/Pic/IfBoxシルク_ドリル.jpg" IsEnabled="False"/>
+        <Rectangle Height="18" Canvas.Left="623" Canvas.Top="521" Width="31" Visibility="{Binding VisCN2_1_2}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="18" Canvas.Left="654" Canvas.Top="521" Width="31" Visibility="{Binding VisCN2_3_4}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="18" Canvas.Left="685" Canvas.Top="521" Width="31" Visibility="{Binding VisCN2_5_6}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="18" Canvas.Left="716" Canvas.Top="521" Width="31" Visibility="{Binding VisCN2_7_8}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="18" Canvas.Left="747" Canvas.Top="521" Width="31" Visibility="{Binding VisCN2_9_10}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="18" Canvas.Left="778" Canvas.Top="521" Width="31" Visibility="{Binding VisCN2_11_12}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="18" Canvas.Left="844" Canvas.Top="521" Width="12" Visibility="{Binding VisCN2_15}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="1071" Canvas.Top="411" Width="18" Visibility="{Binding VisCN5_3_4}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="1071" Canvas.Top="442" Width="18" Visibility="{Binding VisCN5_1_2}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="1071" Canvas.Top="337" Width="18" Visibility="{Binding VisCN4_1_2}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="1071" Canvas.Top="305" Width="18" Visibility="{Binding VisCN4_3_4}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="1071" Canvas.Top="274" Width="18" Visibility="{Binding VisCN4_5_6}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="1071" Canvas.Top="243" Width="18" Visibility="{Binding VisCN4_7_8}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="1071" Canvas.Top="212" Width="18" Visibility="{Binding VisCN4_9_10}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="1071" Canvas.Top="181" Width="18" Visibility="{Binding VisCN4_11_12}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="346" Canvas.Top="117" Width="18" Visibility="{Binding VisCN8}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="14" Canvas.Left="346" Canvas.Top="188" Width="18" Visibility="{Binding VisCN9_1}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="14" Canvas.Left="346" Canvas.Top="203" Width="18" Visibility="{Binding VisCN9_2}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="14" Canvas.Left="346" Canvas.Top="219" Width="18" Visibility="{Binding VisCN9_3}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="14" Canvas.Left="346" Canvas.Top="235" Width="18" Visibility="{Binding VisCN9_4}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="14" Canvas.Left="346" Canvas.Top="250" Width="18" Visibility="{Binding VisCN9_5}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="346" Canvas.Top="266" Width="18" Visibility="{Binding VisCN9_6_7}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="346" Canvas.Top="297" Width="18" Visibility="{Binding VisCN9_8_9}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="346" Canvas.Top="377" Width="18" Visibility="{Binding VisCN6_1_2}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="346" Canvas.Top="408" Width="18" Visibility="{Binding VisCN6_3_4}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="346" Canvas.Top="439" Width="18" Visibility="{Binding VisCN6_5_6}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="346" Canvas.Top="470" Width="18" Visibility="{Binding VisCN6_7_8}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="61" Canvas.Left="415" Canvas.Top="141" Width="102" Visibility="{Binding VisRY1A}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="61" Canvas.Left="415" Canvas.Top="220" Width="102" Visibility="{Binding VisRY2x}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="61" Canvas.Left="415" Canvas.Top="297" Width="102" Visibility="{Binding VisRY4x}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="61" Canvas.Left="415" Canvas.Top="376" Width="102" Visibility="{Binding VisRY5}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="61" Canvas.Left="565" Canvas.Top="166" Width="102" Visibility="{Binding VisRY6}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="61" Canvas.Left="565" Canvas.Top="244" Width="102" Visibility="{Binding VisRY9}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="61" Canvas.Left="565" Canvas.Top="323" Width="102" Visibility="{Binding VisRY11}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="50" Canvas.Left="565" Canvas.Top="411" Width="85" Visibility="{Binding VisRY10}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="724" Canvas.Top="84" Width="92" Visibility="{Binding VisRY4x}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="724" Canvas.Top="148" Width="92" Visibility="{Binding VisRY3x}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="724" Canvas.Top="210" Width="92" Visibility="{Binding VisRY3x}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="724" Canvas.Top="291" Width="92" Visibility="{Binding VisRY7}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="724" Canvas.Top="354" Width="92" Visibility="{Binding VisRY1B}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="724" Canvas.Top="416" Width="92" Visibility="{Binding VisRY4x}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="871" Canvas.Top="60" Width="92" Visibility="{Binding VisRY8}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="870" Canvas.Top="122" Width="92" Visibility="{Binding VisRY2x}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="870" Canvas.Top="184" Width="92" Visibility="{Binding VisRY3x}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="870" Canvas.Top="248" Width="92" Visibility="{Binding VisRY2x}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="46" Canvas.Left="871" Canvas.Top="310" Width="92" Visibility="{Binding VisRY2x}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Height="30" Canvas.Left="1083" Canvas.Top="126" Width="18" Visibility="{Binding VisJP1}">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="#FFF03CBF" Opacity="0.7"/>
+            </Rectangle.Fill>
+        </Rectangle>
+    </Canvas>
+</Page>
